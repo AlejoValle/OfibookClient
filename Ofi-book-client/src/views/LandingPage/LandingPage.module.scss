@@ -1,0 +1,15 @@
+@import '../../variables';
+
+
+
+.LandingPage{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(to right,#09203f , #537895);
+
+    h3,h4,p,div{
+        color: #eee;
+    }
+}

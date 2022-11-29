@@ -1,0 +1,18 @@
+
+
+.feed-wrapper {
+    width: 100%;
+    padding: 1rem 3rem;
+   
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+
+    grid-template-columns: 1fr 2fr 1fr;
+
+    background: #09203f;
+    h3,h3,p,div,label{
+        color: #FFF;
+    }
+
+}

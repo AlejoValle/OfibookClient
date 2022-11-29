@@ -1,0 +1,32 @@
+@import "../../variables";
+
+.Button {
+    padding: 0.5rem 1rem;
+ 
+    font-family: "Poppins";
+    font-weight: 400;
+    color: $theme-light-color;
+    font-size: 18px;
+ 
+    background: $theme-accent-color;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+ 
+    cursor: pointer;
+    transition:  .5s ease;
+ 
+    &:hover:not(:disabled){
+      background: transparent;
+      border: 2px solid $theme-accent-color;
+      box-shadow: 0 0 10px 0 $theme-accent-color inset,
+                  0 0 10px 4px $theme-accent-color;
+      border-radius: 30px;
+      color: $theme-accent-color;
+    }
+    
+    &:disabled{
+      color:#bbb;
+      cursor: not-allowed;
+    }
+}

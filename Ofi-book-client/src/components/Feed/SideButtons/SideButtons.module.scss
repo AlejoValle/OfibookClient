@@ -1,0 +1,30 @@
+@import "./../../../variables";
+
+.SideButtons {
+    ul {
+        list-style-type: none;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+        
+
+        button {
+            width: 100%;
+            padding: 0.5rem 1rem;
+ 
+            font-family: "Poppins";
+            font-weight: 400;
+            font-size: 20px;
+            color: $theme-light-color;
+            font-size: 18px;
+            gap: 1rem;
+            margin: 1rem;
+        
+            background: $theme-accent-color;
+            border: none;
+            border-radius: 30px;
+            cursor:pointer;
+        }
+    }
+}

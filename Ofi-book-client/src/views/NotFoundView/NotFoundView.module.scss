@@ -1,0 +1,16 @@
+@import '../../variables';
+
+.container{
+    flex: 1;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-display: swap;
+        font-size: 2rem;
+    }
+}

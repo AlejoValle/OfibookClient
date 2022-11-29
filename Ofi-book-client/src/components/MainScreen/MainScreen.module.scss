@@ -1,0 +1,62 @@
+.main{
+    width: 100%;
+    flex: 1;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+
+
+    .LeftSide{
+        .paragraph{
+
+            h3{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 800;
+                font-display: swap;
+                color: #eee;
+                font-size: 64px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-display: swap;
+                color: #eee;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .col{
+        width: 40%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .col-30{
+        width: 30%;
+    }
+
+    .col-70{
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+.links{
+    display: flex;
+    gap: 1.5rem;
+    stroke-width: 4;
+    size: 100px;
+
+}
+
+.link{
+    color: #eee;
+    text-decoration: none;
+    
+}
