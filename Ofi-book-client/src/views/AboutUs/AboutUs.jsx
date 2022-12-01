@@ -21,7 +21,7 @@ const AbuotUs = () => {
 
                 <div className={classes["description"]}>
                     <h1> Te damos la bienvenida a Ofi-Book, somos una empresa joven y buscamos lo mejor para nuestros clientes</h1>
-                    <p> Ofrecemos a los salvadoreños, que no tuvieron una segunda oportunidad la segunda y tercera oportunidad para salir adelante y hacer de El Salvdaror un pais mas desarrollado </p>
+                    <p> Ofrecemos a los salvadoreños, que no tuvieron una segunda oportunidad la segunda y tercera oportunidad para salir adelante y hacer de El Salvador un pais mas desarrollado </p>
                 </div>
 
                 <div className={classes["mision"]}>

@@ -11,15 +11,15 @@ const SinglePost = ({ title = "", description = " ", image = "", user = "" }) =>
             <h4>
                 { title }
             </h4>
-            <h5>
+            {/* <h5>
                 { user }
-            </h5>
+            </h5> */}
             <p>
                 { description }
             </p>
             <p>
                 Preferencias:
-            </p>
+            </p> 
 
             <div className='Preferences'>
                 <li><div><MdElectricalServices /> Electricista </div></li>

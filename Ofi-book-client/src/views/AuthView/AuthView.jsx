@@ -8,6 +8,7 @@ import { useUserContext } from '../../contexts/UserContext';
 
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
+import { BsArrowLeftSquareFill } from 'react-icons/bs';
 
 const AuthView = () => {
   const navigate = useNavigate();
@@ -28,16 +29,23 @@ const AuthView = () => {
     }
   }, [user])
 
+
   return (
-    <div className={classes["container"]}>
-      <div className={classes["card"]}>
-        <Routes>
-          <Route path='signin' element={<LoginForm onLogin={onLoginHandler} />} />
-          <Route path='signup' element={<RegisterForm onRegister={onRegisterHandler} />} />
-          <Route path='*' element={<Navigate to="/not-found" />} />
-        </Routes>
-      </div>
-    </div>
+    <section>
+      <div className={classes["container"]}>
+        <p onClick={ () => navigate("/")}>
+          <BsArrowLeftSquareFill />
+        </p>
+
+        <div className={classes["card"]}>
+              <Routes>
+                <Route path='signin' element={<LoginForm onLogin={onLoginHandler} />} />
+                <Route path='signup' element={<RegisterForm onRegister={onRegisterHandler} />} />
+                <Route path='*' element={<Navigate to="/not-found" />} />
+              </Routes>
+          </div>
+        </div>
+    </section>
   )
 }
 

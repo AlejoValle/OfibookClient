@@ -22,7 +22,7 @@ const HeaderLanding = () => {
                     <ul>
                         <li><button onClick={ () => navigate("/posts")}> Oportunidades </button></li>
                         <li><button onClick={ () => navigate("/posts")}> Profesionales </button></li>
-                        <li><button onClick={ () => navigate("/aboutus")}> Sobre Nostros </button></li>
+                        <li><button onClick={ () => navigate("/aboutus")}> Sobre Nosotros </button></li>
                         <li><button onClick={ () => navigate("/auth/signin")} > Iniciar Sesión </button></li>
                         <li><button className='Register' onClick={ () => navigate("/auth/signup")} > Registrarse </button></li>
                     </ul>
@@ -30,7 +30,7 @@ const HeaderLanding = () => {
                     <ul>    
                         <li><button onClick={ () => navigate("/posts")}> Oportunidades </button></li>
                         <li><button onClick={ () => navigate("/posts")}> Profesionales </button></li>
-                        <li><button onClick={ () => navigate("/aboutus")}> Sobre Nostros </button></li>
+                        <li><button onClick={ () => navigate("/aboutus")}> Sobre Nosotros </button></li>
                         <li><button onClick={ () => navigate("/auth/signin")} > Iniciar Sesión </button></li>
                         <li><button className='Register' onClick={ () => navigate("/auth/signup")} > Registrarse </button></li>
                     </ul>
